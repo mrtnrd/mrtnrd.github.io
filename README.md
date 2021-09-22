@@ -1,2 +1,0 @@
-# mrtnrd.github.io
-help
