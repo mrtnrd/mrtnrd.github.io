@@ -1,13 +1,20 @@
 body{
-       background:black;
-       color:white;
+       background: rgba(24, 119, 197, 0.459);
+       
 }
 h1{
        font-size: 20px;
 }
 p{
        font-size: 12px;
-       color: green;
+       color: rgb(0, 0, 0);
+       background-color: rgba(166, 207, 255, 0.418);
+       border: 2px solid rgba(0, 110, 255, 0.692);
+       border-radius: 10px;
+       padding: 5px;
+}
+#box{
+       font-size:30px;
 }
 .divclass{
        border-style: dotted;
@@ -21,4 +28,11 @@ ol{
 ul{
        list-style-type: square;
 }
-       
+.spaceportals{
+       text-align:left;
+       font-size:10px;
+       border-style: inset;
+       border-width:2px;
+       border-color:rgba(0, 110, 255, 0.692)
+
+}      
