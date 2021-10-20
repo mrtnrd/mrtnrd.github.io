@@ -1,16 +1,17 @@
 body{
        background: rgba(24, 119, 197, 0.459);
+       width: 90%;
+       margin-left: auto;
+       margin-right: auto;
        
 }
 h1{
        font-size: 20px;
 }
 p{
-       font-size: 12px;
+       font-size: 17px;
        color: rgb(0, 0, 0);
        background-color: rgba(166, 207, 255, 0.418);
-       border: 2px solid rgba(0, 110, 255, 0.692);
-       border-radius: 10px;
        padding: 5px;
 }
 #box{
@@ -28,11 +29,47 @@ ol{
 ul{
        list-style-type: square;
 }
-.spaceportals{
-       text-align:left;
-       font-size:10px;
-       border-style: inset;
-       border-width:2px;
-       border-color:rgba(0, 110, 255, 0.692)
+nav{
+       font: size 20px;
+      
+}
+header{
+       font-size: 20px;
+}
+.nav{
+       display:flex;
+       justify-content: center;
+       background-color: slateblue;
 
-}      
+}
+.nav > div{
+       text-align: center;
+       margin: 10px;
+       padding: 5px;
+       background-color: silver;
+}
+header{
+       display:flex;
+       justify-content: center;
+       background-color: springgreen;
+}
+section{
+       justify-content: left;
+       background-color: violet;
+       width: 50%;
+}
+aside{
+       background-color: red;
+       justify-content: left;
+       width: 50%;
+       float:right;
+}
+footer{
+       background-color: yellow;
+       text-align: center;
+}
+article{
+       background-color: orangered;
+       text-align: left;
+       width: 50%;
+}
